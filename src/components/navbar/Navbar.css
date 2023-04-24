@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navLink {
+    color: white;
+    font-size: 115%;
+    text-decoration: none;
+    font-style: italic;
+}
+.navLink:hover {
+    color:#fff15f;
+    text-decoration: solid underline;
+}

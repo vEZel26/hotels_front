@@ -1,0 +1,19 @@
+.Footer {
+    width: 100%;
+    min-height: 170px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #C1C1C1;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 350px;
+}
+.text {
+    color: #fff15f;
+    font-style: italic;
+    font-size: 150%;
+}

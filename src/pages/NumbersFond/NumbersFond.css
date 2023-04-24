@@ -1,0 +1,23 @@
+
+.containerFond {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+.markList {
+    width: 250px;
+    text-align: left;
+}
+.fondItem {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.title {
+    font-size: 26px;
+    font-style: italic;
+}
