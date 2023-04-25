@@ -15,19 +15,9 @@
     background-color: whitesmoke;
     border-radius: 10px;
     margin: 10px 10px;
-    max-width: 1280px;
 }
 
 .title {
     font-size: 26px;
     font-style: italic;
-}
-
-.btn-bron {
-    width: 375px;
-    height: 75px;
-    margin: 15px 0;
-    font-size: 24px;
-    font-style: italic;
-    background-color: #dcf9b2;
 }
