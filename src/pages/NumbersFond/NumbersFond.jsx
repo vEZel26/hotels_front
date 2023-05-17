@@ -14,8 +14,15 @@ import VIP3 from '../../images/vip-3.jpg'
 import VIP4 from '../../images/vip-4.jpg'
 import VIP5 from '../../images/vip-5.jpg'
 import Header from '../header/Header';
+import { useState } from 'react';
+import ModalNumber from './modal'
+
 
 function NumbersFound() {
+
+    const [modal, modalSet] = useState(false)
+    const [type, typeSet] = useState('standart')
+
     return (
         <>
         <Header />
@@ -49,7 +56,10 @@ function NumbersFound() {
                       <li>Ванная комната с душем</li>
                       <li>Завтра включен в стоимость</li>
                     </ul>
-                    <button className='btn-bron'>Забронировать</button>
+                    <button className='btn-bron' onClick={() => {
+                      modalSet(!modal)
+                      typeSet('standart')
+                      }}>Забронировать</button>
                   </div>
                 </div>
                 <div className='fondItem'>
@@ -79,7 +89,10 @@ function NumbersFound() {
                       <li>Ванная комната с душем</li>
                       <li>Завтра включен в стоимость</li>
                     </ul>
-                    <button className='btn-bron'>Забронировать</button>
+                    <button className='btn-bron' onClick={() => {
+                      modalSet(!modal)
+                      typeSet('standart-2-room')
+                      }}>Забронировать</button>
 
                   </div>
                 </div>
@@ -116,13 +129,17 @@ function NumbersFound() {
                       <li>Ванная комната с душем</li>
                       <li>Завтра включен в стоимость</li>
                     </ul>
-                    <button className='btn-bron'>Забронировать</button>
+                    <button className='btn-bron' onClick={() => {
+                      modalSet(!modal)
+                      typeSet('VIP')
+                      }}>Забронировать</button>
 
                   </div>
                 </div>
             </div>
           </div>
           <Footer />
+          {modal && <ModalNumber type={type} setVisible={modalSet}/> }
         </>
     )
 }

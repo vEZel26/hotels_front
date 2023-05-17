@@ -1,0 +1,30 @@
+.wrap-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-modal {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.form-reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.input-reserved {
+    width: 350px;
+    height: 35px;
+    margin: 5px 0;
+}
