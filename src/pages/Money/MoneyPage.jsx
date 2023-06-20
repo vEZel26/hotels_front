@@ -11,36 +11,28 @@ function MoneyPage() {
         <Header />
           <div className='numbersFond'>
             <div>
-              <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Прейскурант цен на проживание и услуги</p>
+              <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Прейскурант цен на проживание</p>
               <div>
                 <table style={{ width: '500px', margin: '0 auto' }}>
                   <tr>
-                    <th>Номер</th>
-                    <th>Цена</th>
+                    <th style={{fontSize: '20px' }} > Номер</th>
+                    <th style={{fontSize: '20px' }} >Цена</th>
                   </tr>
                   <tr>
-                    <td>Стандарт</td>
-                    <td>6000 рублей*</td>
+                  <td style={{fontSize: '20px' }} >Стандарт</td>
+                    <td style={{fontSize: '20px' }} >6000 рублей*</td>
                   </tr>
                   <tr>
-                    <td>Стандарт улучшенный</td>
-                    <td>8000 рублей*</td>
+                    <td style={{fontSize: '20px' }} > Стандарт 2-х комнатный</td>
+                    <td style={{fontSize: '20px' }} > 9000 рублей*</td>
                   </tr>
                   <tr>
-                    <td>Стандарт 2-х комнатный</td>
-                    <td>9000 рублей*</td>
-                  </tr>
-                  <tr>
-                    <td>VIP домик</td>
-                    <td>10000 рублей*</td>
-                  </tr>
-                  <tr>
-                    <td>Просторный VIP номер с верандой</td>
-                    <td>12000 рублей*</td>
+                  <td style={{fontSize: '20px' }} > VIP домик</td>
+                  <td style={{fontSize: '20px' }} > 10000 рублей*</td>
                   </tr>
                 </table>
-                <p>* завтрак включен в цены за номер</p>
-                <p>При бронировании номера на 5 и более дней скидка 5%</p>
+                <p style={{fontSize: '20px' }} >* завтрак включен в цены за номер</p>
+                <p style={{fontSize: '20px' }} >При бронировании номера на 5 и более дней скидка 5%</p>
               </div>
             </div>
           </div>

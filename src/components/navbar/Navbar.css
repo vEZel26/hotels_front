@@ -6,12 +6,12 @@
 }
 
 .navLink {
-    color: white;
-    font-size: 115%;
+    color: rgb(255, 255, 255);
+    font-size: 140%;
     text-decoration: none;
     font-style: italic;
 }
 .navLink:hover {
-    color:#fff15f;
+    color:#e0f807;
     text-decoration: solid underline;
 }

@@ -18,7 +18,7 @@ function BanketPage() {
             <div>
               <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Банкетный зал</p>
               <div>
-                <p>Банкетный зал в Раздорах — проведение мероприятий, свадем, дней рождений. Вы можете арендовать банкетный зал в Раздорах на базе отдыха Дача.</p>
+                <p style={{fontSize: '20px' }} > Банкетный зал в Раздорах — проведение мероприятий, свадеб, дней рождений.</p>
                 <div className='zal-top'>
                   <img src={zal1} alt='zavtrak1' style={{ margin: '0 10px', width: '500px' }}/>
                   <img src={zal2} alt='zavtrak2' style={{ margin: '0 10px', width: '500px' }}/>

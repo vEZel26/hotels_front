@@ -19,10 +19,10 @@ function TerritoryPage() {
         <Header />
           <div className='numbersFond'>
             <div>
-              <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Территория базы отдыха</p>
+              <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Территория Клуба</p>
               <div>
-                <p>Территория загородного клуба «Дача», делится на две части.<br/>
-                Первая это бассейн и кафе, зона для релакса и загара. Ознакомиться подробнее можно в разделе «Бассейн».<br/>
+                <p style={{fontSize: '20px' }} > Территория загородного клуба, делится на две части.<br/>
+                Первая это бассейн и кафе, зона для релакса и загара.<br/>
                 Вторая — это зона отдыха, беседки, красивый сад, мангальная зона.<br/></p>
                 <div className='zal-top'>
                   <img src={ter1} alt='zavtrak1' style={{ margin: '0 10px', width: '327px' }}/>

@@ -30,9 +30,9 @@ function NumbersFound() {
             <p style={{fontSize: '46px', fontStyle: 'italic', color: 'yellowgreen'}}>Номерной фонд</p>
             <div className='containerFond'>
                 <div className='fondItem'>
-                  <p className='title'>Стандарт</p>
+                  <p className='title'> Стандарт</p>
                   <div>
-                    <p>Уютный комфортабельный однокомнатный номер площадью 16 кв.м с кроватью.</p>
+                    <p style={{fontSize: '20px' }} > Уютный комфортабельный однокомнатный номер площадью 16 кв.м с кроватью.</p>
                     <div >
                     <Carousel infiniteLoop showStatus={false} >
                       <div>
@@ -48,13 +48,13 @@ function NumbersFound() {
                     </div>
                     
                     <ul className='markList'>
-                      <li>Балкон / веранда</li>
-                      <li>Холодильник</li>
-                      <li>Вид на бассейн</li>
-                      <li>Кондиционер</li>
-                      <li>Телевизор</li>
-                      <li>Ванная комната с душем</li>
-                      <li>Завтра включен в стоимость</li>
+                      <li style={{fontSize: '20px' }}>Балкон / веранда</li>
+                      <li style={{fontSize: '20px' }}>Холодильник</li>
+                      <li style={{fontSize: '20px' }}>Вид на бассейн</li>
+                      <li style={{fontSize: '20px' }}>Кондиционер</li>
+                      <li style={{fontSize: '20px' }}>Телевизор</li>
+                      <li style={{fontSize: '20px' }}>Ванная комната с душем</li>
+                      <li style={{fontSize: '20px' }}>Завтра включен в стоимость</li>
                     </ul>
                     <button className='btn-bron' onClick={() => {
                       modalSet(!modal)
@@ -65,7 +65,7 @@ function NumbersFound() {
                 <div className='fondItem'>
                   <p className='title'>Стандарт двухкомнатный</p>
                   <div>
-                    <p>Уютный комфортабельный двухкомнатный семейный номер площадью более  25 кв.м с одной двухспальной кроватью и двумя односпальными кроватями, холодильником, телевизором, сплит-системой. Возможно разместить до 4-х человек.</p>
+                    <p style={{fontSize: '20px' }} >Уютный комфортабельный двухкомнатный семейный номер площадью более  25 кв.м с одной двухспальной кроватью и двумя односпальными кроватями, холодильником, телевизором, сплит-системой. Возможно разместить до 4-х человек.</p>
                     <div >
                       <Carousel infiniteLoop showStatus={false}>
                         <div>
@@ -81,13 +81,13 @@ function NumbersFound() {
                     </div>
                     
                     <ul className='markList'>
-                      <li>Балкон / веранда</li>
-                      <li>Холодильник</li>
-                      <li>Вид на бассейн</li>
-                      <li>Кондиционер</li>
-                      <li>Телевизор</li>
-                      <li>Ванная комната с душем</li>
-                      <li>Завтра включен в стоимость</li>
+                      <li style={{fontSize: '20px' }}>Балкон / веранда</li>
+                      <li style={{fontSize: '20px' }}>Холодильник</li>
+                      <li style={{fontSize: '20px' }}>Вид на бассейн</li>
+                      <li style={{fontSize: '20px' }}>Кондиционер</li>
+                      <li style={{fontSize: '20px' }}>Телевизор</li>
+                      <li style={{fontSize: '20px' }}>Ванная комната с душем</li>
+                      <li style={{fontSize: '20px' }}>Завтра включен в стоимость</li>
                     </ul>
                     <button className='btn-bron' onClick={() => {
                       modalSet(!modal)
@@ -99,7 +99,7 @@ function NumbersFound() {
                 <div className='fondItem'>
                   <p className='title'>VIP двухкомнатный домик</p>
                   <div>
-                    <p>Уютный комфортабельный двух комнатный номер площадью более  32кв.м с кроватью, диваном, холодильником</p>
+                    <p style={{fontSize: '20px' }} >Уютный комфортабельный двух комнатный номер площадью более  32кв.м с кроватью, диваном, холодильником</p>
                     <div >
                     <Carousel infiniteLoop showStatus={false}>
                       <div>
@@ -121,13 +121,13 @@ function NumbersFound() {
                     </div>
                     
                     <ul className='markList'>
-                      <li>Балкон / веранда</li>
-                      <li>Холодильник</li>
-                      <li>Вид на бассейн</li>
-                      <li>Кондиционер</li>
-                      <li>Телевизор</li>
-                      <li>Ванная комната с душем</li>
-                      <li>Завтра включен в стоимость</li>
+                      <li style={{fontSize: '20px' }} > Балкон / веранда</li>
+                      <li style={{fontSize: '20px' }}>Холодильник</li>
+                      <li style={{fontSize: '20px' }}>Вид на бассейн</li>
+                      <li style={{fontSize: '20px' }}>Кондиционер</li>
+                      <li style={{fontSize: '20px' }}>Телевизор</li>
+                      <li style={{fontSize: '20px' }}>Ванная комната с душем</li>
+                      <li style={{fontSize: '20px' }}>Завтра включен в стоимость</li>
                     </ul>
                     <button className='btn-bron' onClick={() => {
                       modalSet(!modal)

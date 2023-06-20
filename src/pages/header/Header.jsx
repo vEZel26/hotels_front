@@ -7,7 +7,7 @@ function Header() {
     return (
       <div className="Header" style={{ backgroundImage: `url(${background})`}}>
         <img src={logo} alt='logo' className='logo'/>
-        <p className='text'>Отдых на берегу р. Дон в уютном месте</p>
+        <p className='text' style={{color: '#ece911'}}></p>
         <Navbar />
       </div>
     );
